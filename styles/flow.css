@@ -282,7 +282,7 @@ background-color: #4E47FF;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* gap: 110px; */
+    gap: 115px;
 }
 .form-title{
     font-size: 97px;
