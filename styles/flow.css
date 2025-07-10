@@ -45,6 +45,7 @@ background-color: #4E47FF;
 }
 .btn-primary:hover{
     background-color: rgba(127, 204, 255, 0.795);
+    color: #252432;
 }
 .head-title{
     font-size: 65px;
@@ -66,6 +67,7 @@ background-color: #4E47FF;
 /* mouse hover */
 .btn-stay:hover{
     background-color: rgba(127, 204, 255, 0.795);
+    color: #252432;
 }
 /* text center */
 .text-center{
@@ -80,7 +82,6 @@ background-color: #4E47FF;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* margin: 116px 159px 116px 141px; */
     max-width: 1140px;
     margin: 0 auto;
     margin-top: 116px;
@@ -99,7 +100,6 @@ background-color: #4E47FF;
     border-radius: 48px;
     border: none;
     margin-left: 220px;
-    /* margin-right: 159px; */
 }
 
 /* productive user section */
@@ -143,12 +143,11 @@ background-color: #4E47FF;
 
 /* user feedback */
 .users-feedback{
-    /* align-items: center; */
     justify-content: space-between;
     max-width: 1140px;
     margin: 0 auto;
     margin-top: 137px;
-
+    margin-bottom: 137px;
 
 }
 .feed-title{
@@ -211,6 +210,61 @@ background-color: #4E47FF;
     background-color: white; 
     overflow: hidden;
     margin-right: 12px;
+}
+
+/* Focus section */
+
+.focus{
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 137px;
+    margin-bottom: 92.23px;
+
+}
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+}
+.focus-sub-title{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* focus button */
+
+.btn-focus{
+    padding: 12px 36px;
+    text-align: center;
+    background-color:#4E47FF;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+/* mouse hover */
+.btn-focus:hover{
+    background-color: rgba(127, 204, 255, 0.795);
+    color: #252432;
+}
+
+/* image part */
+
+.wc-big{  
+    width: 840px;
+    height: 364.77px;
+    border-radius: 48px;  
+}
+.wc-big-container{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    padding-top: 20px; 
 }
 
 
