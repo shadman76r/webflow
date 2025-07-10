@@ -217,7 +217,6 @@ background-color: #4E47FF;
 .focus{
     background-color: #FFFFFF;
     border-radius: 14px;
-    justify-content: space-between;
     max-width: 1140px;
     margin: 0 auto;
     margin-top: 137px;
@@ -267,5 +266,24 @@ background-color: #4E47FF;
     padding-top: 20px;
     padding-bottom: 71px;
 }
+
+/* Get in Touch section */
+.get-in-touch{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 92.23px;
+    margin-bottom: 14px;
+}
+.touch-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-title{
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+}
+
 
 
