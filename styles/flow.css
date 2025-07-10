@@ -63,6 +63,10 @@ background-color: #4E47FF;
     font-size: 16px;
     font-weight: bold;
 }
+/* mouse hover */
+.btn-stay:hover{
+    background-color: rgba(127, 204, 255, 0.795);
+}
 /* text center */
 .text-center{
 
@@ -71,3 +75,27 @@ background-color: #4E47FF;
 .main-head{
     padding: 158px 267.5px 152px 267.5px;
 }
+/* action */
+.action{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 116px 159px 116px 141px;
+}
+
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+}
+.action-detail{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(37, 36, 50, 0.5);
+}
+.wc-mini{
+    border-radius: 48px;
+    border: none;
+    margin-left: 220px;
+    /* margin-right: 159px; */
+}
+
