@@ -264,7 +264,8 @@ background-color: #4E47FF;
     display: flex; 
     justify-content: center; 
     align-items: center;
-    padding-top: 20px; 
+    padding-top: 20px;
+    padding-bottom: 71px;
 }
 
 
