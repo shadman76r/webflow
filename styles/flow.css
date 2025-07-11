@@ -171,7 +171,11 @@ background-color: #4E47FF;
     border-color: rgba(242, 237, 237, 1);
     border-radius: 14px;
     padding: 24px;
+    box-shadow: 2px 2px 2px rgb(203, 170, 234);
 
+}
+.review:hover{
+    background-color: #a194e785;
 }
 .image{
     display: flex;
@@ -218,7 +222,7 @@ background-color: #4E47FF;
 /* Focus section */
 
 .focus{
-    background-color: #FFFFFF;
+    background-color: #f1ececde;
     border-radius: 14px;
     max-width: 1140px;
     margin: 0 auto;
